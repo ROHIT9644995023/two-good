@@ -221,7 +221,7 @@ body{
         min-height: 70vh;
         width: 100%;
         padding: 0 4vw;
-        padding-top: 30vh;
+        padding-top: 25vh;
     }
     #page1 h1{
         font-size: 15vw;
@@ -278,9 +278,9 @@ body{
     }
     .child{
         height: 55vh;
-        width: 88vw;
+        width: 92vw;
         /* background-color: red; */
-        padding: 10vw;
+        padding: 2vw;
         position: relative;
         display: flex;
         align-items: center;
@@ -290,6 +290,8 @@ body{
         cursor: pointer;
     }
     .child img{
-        height: 100%;
+        /* border: 2px solid black; */
+        height: 85%;
+        width: 100%;
     }
 }
